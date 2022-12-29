@@ -5,7 +5,8 @@ public class Main {
                 new SeniorSalaryCalculator(new DeveloperReport("Becki", "Senior Developer", 30.5, 160)),
                 new JuniorSalaryCalculator(new DeveloperReport("Leo", "Junior Developer", 20, 150)),
                 new SeniorSalaryCalculator(new DeveloperReport("MeM", "Senior Developer", 30.5, 180)),
-                new SystemArchitectCalculator(new DeveloperReport("Schnorri", "System Architect", 30.5, 180))
+                new SystemArchitectCalculator(new DeveloperReport("Schnorri", "System Architect", 30.5, 180)),
+                new SystemArchitectCalculator(new DeveloperReport("Kevin", "System Architect", 30.5, 180))
         };
 
         ArrayList<BaseSalaryCalculator> calculators = new ArrayList<>(Arrays.asList(calc));
