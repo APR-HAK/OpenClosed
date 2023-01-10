@@ -4,6 +4,6 @@ public class JuniorSalaryCalculator extends BaseSalaryCalculator{
     }
 
     public double calculateSalary(){
-        return developerReports.getHourlyRate() * developerReports.getWorkingHours();
+        return (developerReports.getHourlyRate() * developerReports.getWorkingHours());
     }
 }

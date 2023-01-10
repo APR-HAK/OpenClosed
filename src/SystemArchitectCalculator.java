@@ -4,6 +4,6 @@ public class SystemArchitectCalculator extends BaseSalaryCalculator{
     }
 
     public double calculateSalary(){
-        return developerReports.getHourlyRate() * developerReports.getWorkingHours() * 1.4;
+        return 2000 + (developerReports.getHourlyRate() * developerReports.getWorkingHours()) * 1.5;
     }
 }

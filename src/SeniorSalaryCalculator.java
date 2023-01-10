@@ -4,6 +4,6 @@ public class SeniorSalaryCalculator extends BaseSalaryCalculator{
     }
 
     public double calculateSalary(){
-        return developerReports.getHourlyRate() * developerReports.getWorkingHours() * 1.2;
+        return (developerReports.getHourlyRate() * developerReports.getWorkingHours()) * 1.2;
     }
 }
